@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+
+# PHP Composer dependencies
+vendor/
+
+# Log files
+logs/
+approval_errors.log
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dashboard documentation and language-specific help files
+dashboard/docs/
+dashboard/images/
+dashboard/stylesheets/
+dashboard/javascripts/
+dashboard/*/faq.html
+dashboard/*/howto_platform_links.html
+dashboard/*/howto_shared_links.html
+
+# PHP template (if not used in production)
+php_template/
+
+# Uploaded files (optional, if you don't want to track uploads)
+#public/uploads/
+#uploads/
+
+# Environment files
+.env
+
+# Misc
+*.bak
+*.tmp 
